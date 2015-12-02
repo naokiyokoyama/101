@@ -10,8 +10,26 @@
 </head>
 <body>
 	
-	<center><h2>Part 1: Blink Program</h2></center>
+	<center><h2>Part 2: Button Program</h2></center>
 	<pre><code class="c++">
+// Read a signal on a pin
+digitalRead(pin); // This returns either HIGH or LOW
+// 'pin' must be between 0-13
+
+// If-else statement
+if(condition)
+{
+	/*..*/
+}
+else 
+{
+	/*..*/
+}
+// 'condition' is a statement that's either true or false
+// Example condiiton: digitalRead(buttonPin) == LOW
+
+// FUNCTIONS FROM LAST EXAMPLE:
+
 // Declare a pin to be an OUTPUT or INPUT
 pinMode(pin, mode);
 // 'pin' must be between 0-13
@@ -31,7 +49,7 @@ digitalWrite(pin, state);
 delay(time);
 // 'time' is a positive integer in MILLISECONDS
     </code></pre>
-    <center><img src="img/1.png" alt=""></center>
+    <center><img src="img/2.png" alt=""></center>
 	
               
 
